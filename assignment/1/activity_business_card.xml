@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.businesscard.BusinessCard">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:src="@drawable/downloadfile10"
+        android:id="@+id/imageView"
+        app:layout_constraintRight_toLeftOf="@+id/textView5"
+        android:layout_marginRight="8dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HYE-JI LEE"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:id="@+id/textView8"
+        android:layout_marginStart="293dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="293dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Koreatech, Computer Science and Enginnering"
+        android:id="@+id/textView"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="010-5779-0229"
+        android:id="@+id/textView5"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lee02g29@koreatech.ac.kr"
+        android:id="@+id/textView6"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        android:layout_marginStart="8dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/imageView"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다솔관 4410호"
+        android:id="@+id/textView7"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView"
+        android:layout_marginLeft="11dp" />
+</android.support.constraint.ConstraintLayout>
